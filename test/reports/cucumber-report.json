@@ -1,0 +1,113 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "greeter-should-greet-when-called;alice-is-greeted-with-hello-world",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Alice is greeted with hello world",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 687303545
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Alice calls greeter function",
+            "match": {
+              "location": "test/step_definitions/greeter-steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21883553
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "She will be greeted with Hello World message.",
+            "match": {
+              "location": "test/step_definitions/greeter-steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 776373
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@someTag",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "greeter-should-greet-when-called;users-can-set-the-greeting-message",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Users can set the greeting message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 108471540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Bob calls set greet function and change the message",
+            "match": {
+              "location": "test/step_definitions/greeter-steps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33900768
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "New message will be displayed",
+            "match": {
+              "location": "test/step_definitions/greeter-steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11570893
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@someTag",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "greeter-should-greet-when-called",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Greeter should greet when called",
+    "tags": [],
+    "uri": "test/features/greeter.feature"
+  }
+]
